@@ -1,8 +1,8 @@
 {
 	"manifest_version": 2,
 	"name": "Homestuck Fixer",
-	"version": "0.1",
-	"description": "Removes the slurs from Homestuck and change Egbert's name to June",
+	"version": "0.1.1",
+	"description": " Applies small fixes to Homestuck's text",
 	"content_scripts": [
 		{
 			"matches": [
