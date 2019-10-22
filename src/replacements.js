@@ -22,6 +22,6 @@ const replacements = [
 	},
 	{
 		find: /(?:r[3e]t[4a]rd)(?!ant)/i,
-		replace: preserveCase('r@@@@d'),
+		replace: preserveCase('r****d'),
 	},
 ];
