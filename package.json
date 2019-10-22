@@ -1,0 +1,19 @@
+{
+  "name": "hsfixer",
+  "version": "0.1.1",
+  "description": "Applies small fixes to Homestuck's text",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashbc/hsfixer.git"
+  },
+  "keywords": [
+    "browser",
+    "extension"
+  ],
+  "author": "Ash Brent-Carpenter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashbc/hsfixer/issues"
+  },
+  "homepage": "https://github.com/ashbc/hsfixer#readme"
+}

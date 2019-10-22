@@ -6,6 +6,8 @@ const hasUpper = function doesStringHaveUpperCaseLetter(st) {
 	return /[A-Z]/.test(st);
 }
 
+// higher-order function that changes one word to the next, preserving case
+// eg preserveCase('result')('FoObAr') -> 'ReSuLt'
 const preserveCase = (replace) => (portion, _) => (
 	portion.text.split('')
 		.map((letter, i) => (
