@@ -1,5 +1,7 @@
+/* global replacements findAndReplaceDOMText */
+
+// eslint-disable-next-line no-console
 console.log('Ruining Homestuck...');
-console.log(`Found ${Object.keys(replacements).length} replacements.`);
 const textElement = document.querySelector('body');
 
 function doit() {
@@ -8,7 +10,7 @@ function doit() {
 			find: word.find,
 			replace: word.replace,
 			preset: 'prose',
-		})
+		});
 	});
 }
 doit();
