@@ -1,3 +1,5 @@
+// replacements defined in fixer.js
+// findAndReplaceDOMText from the library
 /* global replacements findAndReplaceDOMText */
 
 // eslint-disable-next-line no-console
@@ -7,9 +9,8 @@ const textElement = document.querySelector('body');
 function doit() {
 	replacements.forEach((word) => {
 		findAndReplaceDOMText(textElement, {
-			find: word.find,
-			replace: word.replace,
 			preset: 'prose',
+			...word,
 		});
 	});
 }
