@@ -1,8 +1,9 @@
 # hsfixer
-browser extension to remove slurs from homestuck
+Browser extension that makes small tweaks to Homestuck.
 
-## Goals
+* Censors some slurs
+* Changes a character's name
+* Other things
 
-* [ ] find more edge cases
-* [ ] fix that one WV bad joke
-* [ ] options config
+# Content warning!
+`src/replacements.js` contains the list of things to replace, so it has slurs and other things in it.
