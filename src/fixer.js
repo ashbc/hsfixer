@@ -6,7 +6,7 @@
 console.log('Ruining Homestuck...');
 const textElement = document.querySelector('body');
 
-function doit() {
+function replace() {
 	replacements.forEach((word) => {
 		findAndReplaceDOMText(textElement, {
 			preset: 'prose',
@@ -14,7 +14,12 @@ function doit() {
 		});
 	});
 }
-doit();
-setTimeout(doit, 1000);
-setTimeout(doit, 2000);
-setTimeout(doit, 5000);
+
+// just in case lol
+replace();
+setTimeout(replace, 1000);
+setTimeout(replace, 2000);
+setTimeout(replace, 5000);
+
+// eslint-disable-next-line no-console
+console.log('Ruined Homestuck.');

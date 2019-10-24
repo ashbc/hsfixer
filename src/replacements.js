@@ -30,7 +30,7 @@ const replacements = [
 	{
 		// hs 386
 		find: 'white guy who is a',
-		replace: '',
+		replace: preserveCase(''),
 	},
 	{
 		// jb 87, ps 801, hs 735
