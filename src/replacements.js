@@ -35,14 +35,12 @@ const replacements = [
 	{
 		// jb 87, ps 801, hs 735
 		find: /slit (your|my) wrists/,
-		// TODO: find something to replace this with
-		// that's not insensitive
-		replace: '**** $1 ******',
+		// I figure this preserves the joke but removes SH reference
+		replace: 'cut someone',
 	},
 	{
 		find: 'flog your carapace',
-		// TODO: ditto
-		replace: '**** your ********',
+		replace: 'flog their carapace',
 	},
 	// TODO: hs 1643 flog joke
 	// TODO: hs ??? snooty dowagers joke
